@@ -19,10 +19,7 @@ const clearList = () => {
 
 const start = () => {
   const youChoose = addText();
-  if (youChoose === 'exit') {
-    delItem();
-    return;
-  } else if (youChoose === null) {
+  if (youChoose === 'exit' || youChoose === null) {
     delItem();
     return;
   } else if (youChoose === 'del') {
