@@ -24,7 +24,7 @@ const start = () => {
     return;
   } else if (youChoose === 'del') {
     delItem();
-    console.log('delItem(): ', delItem());
+    delItem();
   } else if (youChoose === 'clear') {
     clearList();
   } else if (youChoose === '') {
